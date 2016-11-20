@@ -11,11 +11,11 @@ tutorial:
 https://hackmd.io/s/B1ZLigyfx
 
 #### Usage
-`git clone https://github.com/Roboluv-TW/pcl_cv_ws.git`
 
-```
-source environment.sh
+``` 
+git clone https://github.com/Roboluv-TW/pcl_cv_ws.git
 cd ~/pcl_cv_ws
+source environment.sh
 catkin_make
 ```
 pcl target in 

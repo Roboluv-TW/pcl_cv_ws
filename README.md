@@ -35,6 +35,7 @@ build/pcl_ros_tutorial
 see test.pcd
 the test.pcd store under pcl_cv_ws/
 `cd ~/pcl_cv_ws`
+
 `rosrun pcl_ros_tutorial pcl_viewer test.pcd`
 
 

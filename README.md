@@ -1,7 +1,7 @@
 # pcl_cv_ws
 pcl, opencv ROS conversion 
 
-environment: ubuntu14.04 ROs indigo
+environment: ubuntu14.04 ROS indigo
 
 ```
 sudo apt-get install ros-indigo-perception

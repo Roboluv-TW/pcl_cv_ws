@@ -20,7 +20,7 @@ source environment.sh
 ```
 pcl target in 
 
-`cd pcl_cv_ws/build/pcl_ros_tutorial`
+`cd build/pcl_ros_tutorial`
 
 ##### publish point cloud
 `rosrun pcl_ros_tutorial pcl_publisher_node`

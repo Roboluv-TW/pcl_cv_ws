@@ -27,8 +27,10 @@ mv pcl_viewer devel/lib/pcl_ros_tutorial/
 source environment.sh
 ```
 ##### publish point cloud
-`rosrun pcl_ros_tutorial pcl_publisher_node`
-`rosrun rviz rviz -f point_cloud`
+```
+rosrun pcl_ros_tutorial pcl_publisher_node`
+rosrun rviz rviz -f point_cloud
+```
 ##### apply votex grid filter 
 `rosrun pcl_ros_tutorial pcl_filter`
 ##### read write PCD
@@ -37,8 +39,9 @@ source environment.sh
 
 see test.pcd
 the test.pcd store under pcl_cv_ws/
-`cd ~/pcl_cv_ws`
-
-`rosrun pcl_ros_tutorial pcl_viewer test.pcd`
+```
+cd ~/pcl_cv_ws
+rosrun pcl_ros_tutorial pcl_viewer test.pcd
+```
 
 

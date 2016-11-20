@@ -19,8 +19,9 @@ catkin_make
 source environment.sh
 ```
 pcl target in 
+build/pcl_ros_tutorial
 
-`cd build/pcl_ros_tutorial`
+`mv build/pcl_ros_tutorial devel/`
 
 ##### publish point cloud
 `rosrun pcl_ros_tutorial pcl_publisher_node`

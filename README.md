@@ -21,9 +21,11 @@ pcl target in
 build/pcl_ros_tutorial
 
 `mv build/pcl_ros_tutorial devel/lib/`
+`mv pcl_viewer devel/lib/pcl_ros_tutorial/`
 `source environment.sh`
 ##### publish point cloud
 `rosrun pcl_ros_tutorial pcl_publisher_node`
+`rosrun rviz rviz -f point_cloud`
 ##### apply votex grid filter 
 `rosrun pcl_ros_tutorial pcl_filter`
 ##### read write PCD

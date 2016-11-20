@@ -6,9 +6,11 @@ environment: ubuntu14.04 ROs indigo
 sudo apt-get install ros-indigo-perception
 sudo apt-get install ros-indigo-perception-pcl
 ```
+tutorial:
+https://hackmd.io/s/B1ZLigyfx
 
 #### Usage
-`git clone `
+`git clone https://github.com/Roboluv-TW/pcl_cv_ws.git`
 
 ```
 source environment.sh
@@ -28,5 +30,7 @@ pcl target in
 `rosrun pcl_ros_tutorial pcl_write`
 `rosrun pcl_ros_tutorial pcl_read`
 
-tutorial:
-https://hackmd.io/s/B1ZLigyfx
+see test.pcd 
+`rosrun pcl_ros_tutorial pcl_viewer test.pcd`
+
+

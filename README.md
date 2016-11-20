@@ -16,13 +16,12 @@ https://hackmd.io/s/B1ZLigyfx
 source environment.sh
 cd ~/pcl_cv_ws
 catkin_make
-source environment.sh
 ```
 pcl target in 
 build/pcl_ros_tutorial
 
 `mv build/pcl_ros_tutorial devel/`
-
+`source environment.sh`
 ##### publish point cloud
 `rosrun pcl_ros_tutorial pcl_publisher_node`
 ##### apply votex grid filter 
